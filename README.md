@@ -1,3 +1,3 @@
-# Kemok Python Project Template
+# Kemok Airbyte API Wrapper
 
-Plantilla para creación de proyectos en python.
+Python API wrapper para Airbyte
