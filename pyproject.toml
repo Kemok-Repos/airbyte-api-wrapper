@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "Kemok-Python-Project"
+version = "0.1.0"
+description = "Plantilla para creación de proyectos en python"
+authors = ["Kemok <admin_producto@kemok.io>"]
+readme = "README.md"
+license = "MIT"
+packages = [{include = "app"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.group.dev.dependencies]
+behave = "^1.2.6"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
