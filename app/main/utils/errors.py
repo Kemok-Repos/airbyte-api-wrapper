@@ -1,0 +1,2 @@
+class AirbyteAPIError(Exception):
+    pass
