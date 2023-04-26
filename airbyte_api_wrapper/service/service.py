@@ -2,8 +2,7 @@ import requests
 import json
 from base64 import b64encode
 from model import SyncJobResponse, Job
-from utils.airbyte_urls import URLs
-from utils.errors import AirbyteAPIError
+from utils import URLs, AirbyteAPIError
 
 class AirbyteWrapper:
     '''Clase que maneja las conexiones con la Config API de Airbyte'''
