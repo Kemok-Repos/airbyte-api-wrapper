@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "Airbyte-API-Wrapper"
+name = "airbyte-api-wrapper"
 version = "0.1.0"
 description = "Python API wrapper para Airbyte"
 authors = ["Kemok <admin_producto@kemok.io>"]
