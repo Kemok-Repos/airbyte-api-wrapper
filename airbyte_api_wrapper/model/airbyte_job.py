@@ -1,5 +1,4 @@
 from datetime import datetime
-from typing import Optional
 from .base_model import SnakeToCamelBaseModel
 
 class Job(SnakeToCamelBaseModel):

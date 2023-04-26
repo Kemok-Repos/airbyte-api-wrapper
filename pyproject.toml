@@ -1,14 +1,13 @@
 [tool.poetry]
-name = "airbyte-api-wrapper"
+name = "airbyte_api_wrapper"
 version = "0.1.0"
 description = "Python API wrapper para Airbyte"
 authors = ["Kemok <admin_producto@kemok.io>"]
 readme = "README.md"
 license = "MIT"
-packages = [{include = "app"}]
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = "^3.8"
 requests = "^2.28.2"
 python-dotenv = "^1.0.0"
 pydantic = "^1.10.7"
