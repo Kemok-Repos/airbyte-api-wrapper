@@ -1,5 +1,5 @@
 from pydantic import BaseModel
-from utils import to_camel
+from airbyte_api_wrapper.utils import to_camel
 
 class SnakeToCamelBaseModel(BaseModel):
     '''Modelo base que parsea los atributos camelCase del JSON a snake_case de los modelos'''

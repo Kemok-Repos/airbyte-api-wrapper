@@ -1,1 +1,1 @@
-from service import AirbyteWrapper
+from .service import AirbyteWrapper

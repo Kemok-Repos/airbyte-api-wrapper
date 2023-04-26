@@ -1,7 +1,7 @@
 from datetime import datetime
 from typing import Optional
 from pydantic import validator
-from utils import convert_timestamp_to_datetime
+from airbyte_api_wrapper.utils import convert_timestamp_to_datetime
 from .base_model import SnakeToCamelBaseModel
 from .airbyte_log import Log
 
