@@ -11,6 +11,7 @@ python = "^3.8"
 requests = "^2.28.2"
 python-dotenv = "^1.0.0"
 pydantic = "^1.10.7"
+poethepoet = "^0.19.0"
 
 [tool.poetry.group.dev.dependencies]
 behave = "^1.2.6"
